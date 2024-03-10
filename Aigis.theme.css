@@ -1,0 +1,93 @@
+/**
+ * @name AGSrc
+ * @author Kakorry
+ * @description Silly little Aigis Wallpaper Theme.
+ * @version 0.0.420
+ */
+ @import url('https://getwallpapers.com/wallpaper/full/a/c/3/57746.jpg');
+ @import url('https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/transparency2.css'); 
+ /*Art and Code above not mine, Credit goes to their respective owners!*/
+
+
+ /* Setting Background Colors and Tweaking transparency*/
+ :root{
+    --background-primary: var(--Aigis-Primary-Color);
+    --background-secondary: var(--Aigis-Secondary-Color);
+    --background-tertiary: var(--Aigis-Tertiary-Color);
+    --background-accent: var(--Aigis-Accent-Color);
+    --bg-overlay-3: var(--Aigis-BgOverlay3);
+    --background-secondary-alt: var(--Aigis-BgSecondary-Alt);
+
+    --Aigis-Primary-Color: rgba(175, 254, 123, 0.033);
+    --Aigis-Secondary-Color: rgb(22, 42, 18);
+    --Aigis-Tertiary-Color: rgba(0, 0, 0, 0.405);
+    --Aigis-Accent-Color: rgb(62, 82, 50);
+    
+    --Aigis-BgOverlay3: rgb(35, 47, 28);
+    --Aigis-BgSecondary-Alt: rgb(14, 19, 11);
+    --Aigis-ImageURL: url('https://getwallpapers.com/wallpaper/full/a/c/3/57746.jpg')
+}
+/*Getting and Positioning Background Image*/
+#app-mount {
+    background-image: var(--Aigis-ImageURL);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Guild List Color*/
+.wrapper_a7e7a8 {
+    background-color: rgba(41, 90, 50, 0.5)
+}
+
+/*Server Notification Badge*/
+.lowerBadge__669e7 {
+    transform: translate(0px, -1px)!important;
+}
+
+/*DM Name Bubble */
+.children__32014 {
+    background: rgb(62, 82, 50);
+        border-radius: 25px;
+}
+
+/* Search Bubble */
+.searchBar_e0c60b {
+    border-radius: 25px;
+
+}
+/* Icon Color*/
+.icon__4cb88 {
+    --channel-icon: rgb(249, 255, 164);
+    --interactive-active: rgb(245, 255, 103);
+    --interactive-hover: rgb(245, 255, 103);
+    --interactive-muted: rgb(249, 255, 164);
+    --interactive-normal: rgb(249, 255, 164);
+}
+/* DM List Tweaks*/
+.interactive_a868bc {
+    --interactive-active: rgb(249, 255, 164);
+    --interactive-hover: rgb(249, 255, 164);
+    --interactive-muted: rgb(249, 255, 164);
+    --interactive-normal: rgb(249, 255, 164);
+    --channels-default: rgb(249, 255, 164); 
+    background-color: rgb(22, 35, 18);
+    border-radius: 10px;
+}
+/* Channel Tweaks*/
+.containerDefault__3187b {
+    background-color: rgb(22, 35, 18);
+    color: rgb(249, 255, 164);
+    border-radius: 10px;
+    padding: 2px;
+    --channels-default: rgb(249, 255, 164);
+    --interactive-active: rgb(242, 255, 58);
+    --interactive-hover: rgb(238, 255, 0);
+    --interactive-muted: rgb(238, 255, 0);
+    --interactive-normal: rgb(249, 255, 164);
+}
+.container__23c08,
+.theme-dark {
+    background-color: rgb(14, 19, 11);
+    border-radius: 20px;
+}
+
